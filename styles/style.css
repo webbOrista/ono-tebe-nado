@@ -58,6 +58,12 @@
   line-height: 24.3px; /* 135% */
 }
 
+.phone_number,
+.e-mail_address {
+  border-bottom: 1px solid;
+  text-decoration: none;
+}
+
 .cover {
   position: relative;
   background-image: url(../images/cover.jpg);
@@ -107,7 +113,7 @@
   justify-content: end;
   align-items: center;
   gap: 78px;
-  padding: 0 50px 50px 0;
+  padding: 0 55px 50px 0;
 }
 
 .cover__description-text {
@@ -258,7 +264,7 @@
   display: flex;
   justify-content: space-between;
   align-items: start;
-  padding: 7px 50px 90px;
+  padding: 0 50px 90px;
 }
 
 .footer__menu-list {
@@ -279,11 +285,11 @@
 .footer__social-list {
   display: flex;
   justify-content: space-between;
-  width: 240px;
+  gap: 48px;
   list-style: none;
 }
 
-.footer__social-link {
+.footer__social-icon {
   display: block;
   width: 48px;
   height: 48px;
